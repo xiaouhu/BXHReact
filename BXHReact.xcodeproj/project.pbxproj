@@ -13,6 +13,8 @@
 		A610D9842290480B002C24AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A610D9832290480B002C24AC /* Assets.xcassets */; };
 		A610D9872290480B002C24AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A610D9852290480B002C24AC /* LaunchScreen.storyboard */; };
 		A610D98A2290480B002C24AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A610D9892290480B002C24AC /* main.m */; };
+		A610D998229423C4002C24AC /* NSObject+BXHReact.m in Sources */ = {isa = PBXBuildFile; fileRef = A610D997229423C4002C24AC /* NSObject+BXHReact.m */; };
+		A610D99922942733002C24AC /* BXHReactNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A610D993229048CF002C24AC /* BXHReactNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		A610D9862290480B002C24AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A610D9882290480B002C24AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A610D9892290480B002C24AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A610D992229048CF002C24AC /* BXHReactNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHReactNode.h; sourceTree = "<group>"; };
+		A610D993229048CF002C24AC /* BXHReactNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHReactNode.m; sourceTree = "<group>"; };
+		A610D995229049D6002C24AC /* BXHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHMacros.h; sourceTree = "<group>"; };
+		A610D996229423C4002C24AC /* NSObject+BXHReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BXHReact.h"; sourceTree = "<group>"; };
+		A610D997229423C4002C24AC /* NSObject+BXHReact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BXHReact.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		A610D97922904809002C24AC /* BXHReact */ = {
 			isa = PBXGroup;
 			children = (
+				A610D99022904816002C24AC /* BXHReact */,
 				A610D97A22904809002C24AC /* AppDelegate.h */,
 				A610D97B22904809002C24AC /* AppDelegate.m */,
 				A610D97D22904809002C24AC /* ViewController.h */,
@@ -67,6 +75,18 @@
 				A610D9852290480B002C24AC /* LaunchScreen.storyboard */,
 				A610D9882290480B002C24AC /* Info.plist */,
 				A610D9892290480B002C24AC /* main.m */,
+			);
+			path = BXHReact;
+			sourceTree = "<group>";
+		};
+		A610D99022904816002C24AC /* BXHReact */ = {
+			isa = PBXGroup;
+			children = (
+				A610D992229048CF002C24AC /* BXHReactNode.h */,
+				A610D993229048CF002C24AC /* BXHReactNode.m */,
+				A610D995229049D6002C24AC /* BXHMacros.h */,
+				A610D996229423C4002C24AC /* NSObject+BXHReact.h */,
+				A610D997229423C4002C24AC /* NSObject+BXHReact.m */,
 			);
 			path = BXHReact;
 			sourceTree = "<group>";
@@ -141,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A610D998229423C4002C24AC /* NSObject+BXHReact.m in Sources */,
 				A610D97F22904809002C24AC /* ViewController.m in Sources */,
 				A610D98A2290480B002C24AC /* main.m in Sources */,
+				A610D99922942733002C24AC /* BXHReactNode.m in Sources */,
 				A610D97C22904809002C24AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
